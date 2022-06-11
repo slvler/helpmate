@@ -1,6 +1,10 @@
-# laravel-helper
+## LaravelHelperClass
+[![Latest Stable Version](http://poser.pugx.org/qwerty/helperclass/v)](https://packagist.org/packages/qwerty/helperclass)
+[![Latest Unstable Version](http://poser.pugx.org/qwerty/helperclass/v/unstable)](https://packagist.org/packages/qwerty/helperclass) 
+[![License](http://poser.pugx.org/qwerty/helperclass/license)](https://packagist.org/packages/qwerty/helperclass)
 
 
+A simple helper class implementation for Laravel.
 
 #### Config
 
