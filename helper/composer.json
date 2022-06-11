@@ -1,0 +1,15 @@
+{
+    "name": "qwerty/helperclass",
+    "description": "Laravel Helper Class",
+    "license": "MIT",
+    "authors": [{
+        "name": "Qwerty",
+        "email": "qwerty@qwerty.com"
+    }],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Qwerty\\HelperService\\": "src/"
+        }
+    }
+}
