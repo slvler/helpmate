@@ -16,3 +16,9 @@ the final steps for you are to add the service provider of the package and alias
 Add a new line to the `providers` array:
 
 	Qwerty\HelperService\Providers\QwertyHelperServiceProvider::class
+
+
+
+function list command the Terminal:
+
+    php artisan helper:list
