@@ -1,9 +1,9 @@
 <?php
 
-namespace Qwerty\HelperService\Commands;
+namespace slvler\helpmate\Commands;
 
 use Illuminate\Console\Command;
-use Qwerty\HelperService\QwertyHelperCommand;
+use slvler\helpmate\QwertyHelperCommand;
 
 class HelperCommand extends Command
 {

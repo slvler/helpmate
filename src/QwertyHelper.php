@@ -1,15 +1,10 @@
 <?php
 
 
-namespace Qwerty\HelperService;
+namespace slvler\helpmate;
 use DateTime;
 
-
 class QwertyHelper{
-
-    /*
-    * Time Section
-    */
 
     public static function getDateFormat($date)
     {
@@ -19,30 +14,15 @@ class QwertyHelper{
             return $dt->format("m/d/y");
         }
     }
-
-
-    /*
-    * Redirect Section
-    */
-
     public static function getAbort($code, $message = '', array $headers = [])
     {
         return app()->abort($code, $message, $headers);
     }
 
-
-    /*
-    * File Section
-    */
-
     function getAsset($path, $secure = null)
     {
         return app('url')->asset($path, $secure);
     }
-
-    /*
-     * Math Section
-     */
     function getDivisible($one,$two)
     {
         $result = $one % $two;

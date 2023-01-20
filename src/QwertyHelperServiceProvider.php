@@ -1,11 +1,9 @@
 <?php
 
-
-namespace Qwerty\HelperService\Providers;
+namespace slvler\helpmate;
 
 use Illuminate\Support\ServiceProvider;
-use Qwerty\HelperService\Commands\HelperCommand;
-
+use slvler\helpmate\Commands\HelperCommand;
 
 class QwertyHelperServiceProvider extends ServiceProvider{
 

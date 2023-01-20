@@ -1,6 +1,6 @@
 <?php
 
-namespace Qwerty\HelperService;
+namespace slvler\helpmate;
 
 class QwertyHelperCommand extends QwertyHelper
 {
