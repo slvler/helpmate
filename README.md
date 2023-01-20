@@ -11,7 +11,7 @@ A simple helper class implementation for Laravel.
 
 Run the Composer require command from the Terminal:
 
-    composer require qwerty/helperclass dev-main
+    composer require slvler/helpmate
     
 If you're using Laravel 8.6
 
