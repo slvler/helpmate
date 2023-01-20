@@ -1,15 +1,39 @@
 {
-    "name": "qwerty/helperclass",
-    "description": "Laravel Helper Class",
+    "name": "slvler/helpmate",
     "license": "MIT",
-    "authors": [{
-        "name": "Qwerty",
-        "email": "qwerty@qwerty.com"
-    }],
-    "require": {},
+    "description": "Laravel Helper Class",
+    "type": "package",
+    "authors": [
+        {
+            "name": "slvler",
+            "email": "slvler@proton.me"
+        }
+    ],
     "autoload": {
         "psr-4": {
-            "Qwerty\\HelperService\\": "src/"
+            "slvler\\helpmate\\": "src/"
         }
-    }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "slvler\\helpmate\\Tests\\": "tests/"
+        }
+    },
+    "require": {},
+    "require-dev": {
+        "orchestra/testbench": "^6.18.0",
+        "phpunit/phpunit": "^9.5"
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit tests"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "slvler\\helpmate\\QwertyHelperServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
