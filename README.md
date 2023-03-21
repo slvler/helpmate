@@ -1,7 +1,8 @@
 ## LaravelHelperClass
-[![Latest Stable Version](http://poser.pugx.org/qwerty/helperclass/v)](https://packagist.org/packages/qwerty/helperclass)
-[![Latest Unstable Version](http://poser.pugx.org/qwerty/helperclass/v/unstable)](https://packagist.org/packages/qwerty/helperclass) 
-[![License](http://poser.pugx.org/qwerty/helperclass/license)](https://packagist.org/packages/qwerty/helperclass)
+[![tests](https://github.com/slvler/helpmate/actions/workflows/Tests.yml/badge.svg)](https://github.com/slvler/helpmate/actions/workflows/Tests.yml)
+[![Latest Stable Version](http://poser.pugx.org/slvler/helpmate/v)](https://packagist.org/packages/slvler/helpmate)
+[![Latest Unstable Version](http://poser.pugx.org/slvler/helpmate/v/unstable)](https://packagist.org/packages/slvler/helpmate)
+[![License](http://poser.pugx.org/slvler/helpmate/license)](https://packagist.org/packages/slvler/helpmate)
 
 
 A simple helper class implementation for Laravel.
